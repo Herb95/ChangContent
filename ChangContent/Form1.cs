@@ -22,6 +22,10 @@ namespace ChangContent
             ReadTextFile read = new ReadTextFile ();
             read.ReadFile ();
         }
+        private void Btn2_Click(object sender, EventArgs e)
+        {
+           
+        }
     }
     class ReadTextFile
     {
