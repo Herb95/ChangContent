@@ -48,8 +48,6 @@ namespace ChangContent
             //{
             //    Console.WriteLine (line.ToString ());
             //}
-
-         
         }
         public List<string> ReadFile1()
         {
@@ -97,7 +95,6 @@ namespace ChangContent
                         //直接追加文件末尾，换行
                         file.WriteLine (line);
                     }
-
                 }
             }
         }
