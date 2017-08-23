@@ -33,6 +33,7 @@ namespace ChangContent
             this.Btn1 = new System.Windows.Forms.Button();
             this.Btn2 = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // Btn1
@@ -47,7 +48,7 @@ namespace ChangContent
             // 
             // Btn2
             // 
-            this.Btn2.Location = new System.Drawing.Point(109, 12);
+            this.Btn2.Location = new System.Drawing.Point(259, 11);
             this.Btn2.Name = "Btn2";
             this.Btn2.Size = new System.Drawing.Size(91, 39);
             this.Btn2.TabIndex = 1;
@@ -66,14 +67,23 @@ namespace ChangContent
             this.textBox1.Name = "textBox1";
             this.textBox1.ReadOnly = true;
             this.textBox1.ScrollBars = System.Windows.Forms.ScrollBars.Horizontal;
-            this.textBox1.Size = new System.Drawing.Size(188, 217);
+            this.textBox1.Size = new System.Drawing.Size(241, 217);
             this.textBox1.TabIndex = 2;
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(259, 56);
+            this.textBox2.Multiline = true;
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(214, 218);
+            this.textBox2.TabIndex = 3;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(368, 316);
+            this.ClientSize = new System.Drawing.Size(485, 316);
+            this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.Btn2);
             this.Controls.Add(this.Btn1);
@@ -90,6 +100,7 @@ namespace ChangContent
         private System.Windows.Forms.Button Btn1;
         private System.Windows.Forms.Button Btn2;
         private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox textBox2;
     }
 }
 
